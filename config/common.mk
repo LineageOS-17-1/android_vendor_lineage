@@ -77,6 +77,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
+# Use Custom OTA URI
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://downloads.sourceforge.net/project/lineageos17/mido/ota.json
+
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/lineage-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/lineage-hiddenapi-package-whitelist.xml
