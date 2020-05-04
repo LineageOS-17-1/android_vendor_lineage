@@ -79,7 +79,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Use Custom OTA URI
 PRODUCT_PROPERTY_OVERRIDES += \
-    lineage.updater.uri=https://downloads.sourceforge.net/project/lineageos17/mido/ota.json
+    lineage.updater.uri=https://downloads.sourceforge.net/project/lineageos-17-1/mido/ota.json
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
